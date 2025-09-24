@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    background-color: #000000 !important;
+}
+.container1{
+    background-image: url(images/hero\ about\ image.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    min-height: 30rem;
+}
+.nav-item a {
+    color: white;
+}
+.nav-item a:hover {
+    color: #853203;
+}
+.btn{
+    background-color:#Ef5C0c !important;
+    border: none;
+    min-width: 20%;
+}
+.team{
+    border: 1px solid grey;
+}
+.fuel{
+    border: 1px solid grey;
+}
+.clean{
+    border: 1px solid grey;
+}
+.space{
+    border: 1px solid grey;
+}

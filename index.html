@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    <link rel="stylesheet" href="home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1 text-white">FIT-OASIS</span>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold " href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="packages.html">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="nutrition.html">Nutrition</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <setion id="Home">
+
+                <p class="text-center text-white fs-2 fw-bold mt-5 pt-5">THE GYM YOU CALL HOME</p>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-lite bg-white" style="min-width:20%" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                        <div class="d-flex">
+                            <div class="p-2">
+                                <img src="images/analytics icon-home.png" class="img-fluid text-white" alt="analytics">
+                            </div>
+                            <div class="pt-1">
+                                <P class="fs-6 p-2">VIEW YOUR ANALYTICS</P>
+                            </div>
+                        </div>
+
+                    </button>
+                </div>
+
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="container4 p-5">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="d-flex">
+                                        <div class="fit">
+                                            <div class="d-flex">
+                                                <button type="button" class="border border-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-arrow-left"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                                    </svg></button>
+                                                <h5 class="modal-title p-3 text-white">Fit-Oasis</h5>
+                                            </div>
+                                            <div class="border border-white rounded-3 text-start text-white mt-2">
+                                                <h5>Hello!</h5>
+                                                <p>Yedidyah Cherup</p>
+                                            </div>
+                                            <div class="row">
+                                                <div class=" col-md-6">
+                                                    <img src="images/workout.png" class="img-fluid mt-2 mb-2"
+                                                        style="min-height:450px; min-width:80%" alt="workout">
+                                                </div>
+                                                <div class=" col-md-6 text-white">
+                                                    <div class="water rounded-3 mt-1">
+                                                        <p class="p-1">2.2 L</p>
+                                                        <div class="d-flex flex-row">
+                                                            <p class="fs-4 p-1">Water Litres</p>
+                                                            <img src="images/water icon-analytics.png"
+                                                                class="img-fluid p-2 mb-2" alt="water">
+                                                        </div>
+                                                    </div>
+                                                    <div class="calories rounded-3 mt-1">
+                                                        <p class="p-1">2.45 </p>
+                                                        <div class="d-flex flex-row">
+                                                            <p class="fs-4 p-1 mt-2 ">Kilo Colories</p>
+                                                            <img src="images/calories icon-analytics.png"
+                                                                class="img-fluid p-2 mb-2" alt="calories">
+                                                        </div>
+                                                    </div>
+                                                    <div class="beats rounded-3 mt-1">
+                                                        <p class="p-1">124</p>
+                                                        <div class="d-flex flex-row">
+                                                            <p class="fs-4 p-1">Beats / min</p>
+                                                            <img src="images/heart beat icon-analytics.png"
+                                                                class="img-fluid p-2 mb-2" alt="heart-beat">
+                                                        </div>
+                                                    </div>
+                                                    <div class="slept rounded-3 mt-1">
+                                                        <p class="p-1">13L</p>
+                                                        <div class="d-flex flex-row">
+                                                            <p class="fs-4 p-1">Hours Slept</p>
+                                                            <img src="images/hours slept icon-analytics.png"
+                                                                class="img-fluid p-2 mb-2" alt="hours">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class=" sub  rounded-5 ">
+                                                    <h5 class="text-white p-1">Subscription</h5>
+                                                    <p class="text-white p-1">ACTIVE PLAN : FIT-OASIS SILVER</p>
+                                                    <div class="d-flex flex-row">
+                                                        <p class="text-white p-1">Special</p>
+                                                        <p class="text-white p-1">3 MONTHS</p>
+
+                                                    </div>
+                                                    <img src="images/dashboard subscription image.png"
+                                                        class="img-fluid m-2" style="max-width:50%; max-height:150px"
+                                                        alt="subscription">
+                                                </div>
+                                                <div class=" trend rounded-5 ms-2">
+                                                    <h5 class="text-white m-2">Most Trending</h5>
+                                                    <div class="d-flex">
+                                                        <img src="images/dashboard trending image 1.png"
+                                                            class="dashboard img-fluid rounded-5 m-2 mt-3"
+                                                            style="min-width:15% ;" alt="image1">
+                                                        <img src="images/dashboard trending image 2.png"
+                                                            class="dashboard img-fluid rounded-5 m-2 mt-3"
+                                                            style="min-width:15% ;" alt="image2">
+                                                        <img src="images/dashboard trending image 3.png"
+                                                            class="dashboard img-fluid rounded-5 m-2 mt-3"
+                                                            style="min-width:15% ;" alt="image1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" profile  m-4 rounded-5">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="images/dashboard profile picture.png"
+                                                        class="img-fluid p-2" alt="profie">
+                                                </div>
+                                                <div>
+                                                    <h5 class="text-white p-1">Yadidyah Cherub</h5>
+                                                    <p class="text-white p-1">30 years old</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="p-2">
+                                                    <h5 class="text-white text-center">Height</h5>
+                                                    <p class="text-white text-center">5.7 inches</p>
+                                                </div>
+                                                <div class="p-2">
+                                                    <h5 class="text-white text-center">Weight</h5>
+                                                    <p class="text-white text-center">58 Kgs</p>
+                                                </div>
+                                                <div class="p-2">
+                                                    <h5 class="text-white text-center">Gender</h5>
+                                                    <p class="text-white text-center">Male</p>
+                                                </div>
+                                            </div>
+                                            <hr class="text-white m-3">
+                                            <div class="text-center">
+                                                <h5 class="enroll p-1">ENROLLED ON: JAN 12,2025</h5>
+                                                <P class="p-1 text-white">EXPIRY ON: MAR 24,2025</P>
+                                            </div>
+                                            <hr class="text-white m-3">
+                                            <div>
+                                                <h5 class="text-center text-white">ATTENDANCE</h5>
+                                                <img src="images/attendance.png" class="img-fluid mt-3 m-3"
+                                                    style="max-width:85%;" alt="attendance">
+                                                <img src="images/present.png" class="img-fluid  mt-3 m-3"
+                                                    style="max-width:85%;" alt="present">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class=" d-flex justify-content-center m-2">
+                    <button type="button" class="btn bg-white">
+                        <img src="images/home-sign up icon.png" class="img-fluid p-1" alt="signup">
+                        ENTER MEMBERSHIP ID
+                    </button>
+                </div>
+
+
+                <div class="d-flex justify-content-center m-2">
+                    <button type="button" class="btn bg-white">
+                        <img src="images/password icon-signup.png" class=" img-fluid p-1" alt="password">
+                        Enter Password
+                    </button>
+                </div>
+                <div class="d-flex justify-content-center m-2">
+                    <button type="submit" class="btn3 text-white">SIGN-UP</button>
+                </div>
+        </div>
+    </div>
+    <div class="text-white mt-5 m-5">
+        <p class="text-center">FIT-OASIS is a comprehensive fitness institute, which would bring you the best gym in
+            the
+            tamilnadu</p>
+        <p class="text-center p-5">Our team is here to help and and support, everybody, no matter who they are, to
+            achieve
+            their goals, And it is no secret that FIT-OASIS continues to be the trendsetter in the TAMILNADU fitness
+            community.</p>
+        <p class="text-center pt-2">Our mission is to create a comfortable environment for everyone, with all types
+            of
+            fitness goals. it,s not just any gym.FITOASIS is the gym you call home.</p>
+        <div class="d-flex justify-content-center fw-bold p-2">
+            <button type="button" class="btn rounded-3"><a href="about.html">
+                    <h5 class="p-1 text-white ">More About Us
+                        <img src="images/home-arrow right icon.png" class="img-fluid p-1" alt="arrow">
+                    </h5>
+                </a>
+            </button>
+        </div>
+        <hr class="text-white fs-5 text-center m-5 auto">
+        <div clas="text-white">
+            <h4 class="text-center text-white ">Why Choose FIT-OASIS</h4>
+            <div class="row m-5">
+                <div class="card col-md-4 text-white ms-5 mb-3" style="max-width: 22rem;">
+                    <div class="card-header">
+                        <img src="images/home-brochure icon.png" class="img-fluid" alt="broucher">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">FREE BROCHURE</h5>
+                        <p class="card-text">We provide free brochure for nutrition plan and beginners exercise list.
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-md-4 text-white ms-5 mb-3 p-4" style="max-width: 22rem;">
+                    <div class="card-header">
+                        <img src="images/home-guide icon.png" class="img-fluid" alt="guide">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">EXTRA GUIDE</h5>
+                        <p class="card-text">We provide free brochure for nutrition plan and beginners exercise list</p>
+                    </div>
+                </div>
+                <div class="card col-md-4 text-white ms-5 mb-3 p-4" style="max-width: 22rem;">
+                    <div class="card-header">
+                        <img src="images/home-tread mill icon.png" class="img-fluid" alt="treat">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">TREADMILL</h5>
+                        <p class="card-text">We provide free brochure for nutrition plan and beginners exercise list</p>
+                    </div>
+                </div>
+                <div class="card col-md-4 text-white ms-5 mb-3 p-4" style="max-width: 22rem;">
+                    <div class="card-header">
+                        <img src="images/home-skipping icon.png" class="img-fluid" alt="treat">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">SKIPPIMG JUMP</h5>
+                        <p class="card-text">We provide free brochure for nutrition plan and beginners exercise list</p>
+                    </div>
+                </div>
+                <div class="card col-md-4 text-white ms-5 mb-3 p-4" style="max-width: 22rem;">
+                    <div class="card-header">
+                        <img src="images/home-swing icon.png" class="img-fluid" alt="swing">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">SPORT SWING</h5>
+                        <p class="card-text">We provide free brochure for nutrition plan and beginners exercise list</p>
+                    </div>
+                </div>
+                <div class="card col-md-4 text-white ms-5 mb-3 p-4" style="max-width: 22rem;">
+                    <div class="card-header">
+                        <img src="images/home -protein icon.png" class="img-fluid" alt="protein">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">EXTRA PROTEIN</h5>
+                        <p class="card-text">We provide free brochure for nutrition plan and beginners exercise list</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="text-white fs-5 text-center m-5 auto">
+        <div class=" container2">
+            <div class="container-fluid">
+                <h5 class="text-white text-center"> FIT-OASIS Gallery</h5>
+                <p class="text-white text-center">A glimpse from the gym</p>
+                <div class="d-flex m-5">
+                    <div class="flex-column m-2">
+                        <img src="images/galkery 1.png" class="gallery img-fluid m-2" alt="gallery1">
+                        <img src="images/gallery 2.png" class="gallery img-fluid m-2" alt="gallery2">
+                    </div>
+                    <div class="flex-column m-2">
+                        <img src="images/gallery 8.png" class="gallery img-fluid m-2" alt="gallery1">
+                        <img src="images/gallery 9.png" class="gallery img-fluid m-2" alt="gallery2">
+                    </div>
+                    <div class="flex-column m-2">
+                        <img src="images/gallery 3.png" class="gallery img-fluid  m-2" alt="gallery3">
+                        <img src="images/gallery 4.png" class="gallery img-fluid m-2" alt="gallery4">
+                    </div>
+                    <div class="flex-column m-2">
+                        <img src="images/gallery 5.png" class="gallery img-fluid m-2" alt="gallery5">
+                        <img src="images/gallery 6.png" class="gallery img-fluid m-2" alt="gallery6">
+                        <img src="images/gallery 7.png" class="gallery img-fluid m-2" alt="gallery7">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="text-white fs-5 text-center m-5 auto">
+        <div class="text-white">
+            <h5 class="text-center">FIT-OASIS FAQ</h5>
+            <p class="text-center">Your Questions Answered</p>
+
+            <div class="d-flex m-5">
+                <img src="images/faq add circle icon.png" class="img-fluid p-3" alt="add">
+                <p class="mt-4">How di i register?</p>
+            </div>
+            <hr class="text-white m-5 auto">
+            <div class="d-flex m-5">
+                <img src="images/faq add circle icon.png" class="img-fluid p-3" alt="add">
+                <p class="mt-4">Do you offer real free trails?</p>
+            </div>
+            <hr class="text-white m-5 auto">
+            <div class="d-flex m-5">
+                <img src="images/faq add circle icon.png" class="img-fluid p-3" alt="add">
+                <p class="mt-4">Do you offer refunds?</p>
+            </div>
+            <hr class="text-white m-5 auto">
+            <div class="d-flex m-5">
+                <img src="images/faq add circle icon.png" class="img-fluid p-3" alt="add">
+                <p class="mt-4">What is the registration fee?</p>
+            </div>
+            <hr class="text-white m-5 auto">
+            <div class="d-flex m-5">
+                <img src="images/faq add circle icon.png" class="img-fluid p-3" alt="add">
+                <p class="mt-3">Do you have a ladies' hour?</p>
+            </div>
+            <hr class="text-white m-5 auto">
+        </div>
+
+        <div class="container3">
+            <div id="carouselExampleSlidesOnly" class="carousel slide p-5" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-5 mx-auto">
+                    <div class="carousel-item active ">
+                        <div class="d-flex text-white">
+                            <div class="mt-4">
+                                <img src="images/review-yedid image.png" class="img-fluid m-2" alt="yedid">
+                            </div>
+                            <div class="p-3">
+                                <p class="p-2">"I would recommend FIT-OASIS to anyone who islooking for a
+                                    prefessional and
+                                    exceptional
+                                    services from a gym in male.I personally am very happy with the services I
+                                    received at
+                                    fit-oasis gym.</p>
+                                <p class="p-2">-YEDIDYAH CHERUB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex text-white">
+                            <div class="mt-4">
+                                <img src="images/review ruby image.png" class="img-fluid m-2" alt="ruby">
+                            </div>
+                            <div class="p-3">
+                                <p class="p-2">"I personally loved how the approached me,he was very friendly and
+                                    motivating
+                                    & knew it from a player's perspective & was very understanding & easy to work
+                                    with."</p>
+                                <p class="p-2">-RUBY PETER</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex text-white">
+                            <div class="mt-4">
+                                <img src="images/review dani image.png" class="img-fluid m-2" alt="dani">
+                            </div>
+                            <div class="p-3">
+                                <p class="p-2">"Varah salhi thanei n the tranners are very prefessional freindly"
+                                </p>
+                                <p class="p-2">-DANIEL STEVENSION</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container5">
+            <div class=" footer">
+                <div class="d-flex text-white m-2">
+                    <div class="flex-column p-4">
+                        <h5>FIT-OASIS</h5>
+                        <P>Fit-Oasis is a comprehensive fitness institue, which <br> brings you the best gym
+                            experience in the tamilnadu</P>
+                        <p>The Gym you call Home</p>
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="flex-column p-4">
+                        <div>
+                            <h5>Location:</h5>
+                            <p>South street fairlands</p>
+                            <p>Salem, Tamilnadu</p>
+                            <p>India-636 302</p>
+                        </div>
+                        <div class="pt-2">
+                            <h5>Contact us:</h5>
+                            <p>Phone: +91 123457890</p>
+                            <p>Email: info@fitoasis.com</p>
+                        </div>
+                    </div>
+                    <div class="flex-column p-4">
+                        <h5>OUR TIMINGS</h5>
+                        <p>Sunday to saturday <br> 5.30am to 10pm<br> Maintenance <br>Every afternoon <br>1.00pm to
+                            2.00pm</p>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-6 mt-1 p-5">
+                        <p class="justify-content-start text-white">&copy; Fit-Oasis. All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-6 p-5">
+                        <img src="images/links icon group - footer.png" class="img-fluid ms-5 ps-5" alt="links">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

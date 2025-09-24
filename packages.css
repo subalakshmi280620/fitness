@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    background-color: #000000 !important;
+}
+.container1{
+    background-image: url(images/hero\ packages\ image.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    min-height:30rem;
+}
+.nav-item a {
+    color: white;
+}
+.nav-item a:hover {
+    color: #853203;
+}
+.flip-card{
+    background-color: transparent !important;
+   min-width:20rem;
+    min-height:20rem;
+   
+    perspective: 1000px !important;
+
+}
+.flip-card-inner{
+    position: relative;
+    min-width:20rem;
+    min-height: 20rem;
+    transition:transform 0.6s;
+    transform-style: preserve-3d !important;
+    border: 1px solid grey;
+}
+.flip-card:hover .flip-card-inner{
+    transform:rotateY(180deg);
+}
+.flip-card-front, .flip-card-back{
+    position:absolute;
+    min-width :20rem; 
+    min-height:20rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   
+}
+.flip-card-back{
+     transform: rotateY(180deg);
+}
+.btn{
+    min-width:15% !important;
+
+}
