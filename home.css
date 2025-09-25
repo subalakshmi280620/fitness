@@ -151,3 +151,15 @@ body {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+@media (max-width:600px){
+    .container{
+        max-height:100vh;
+        padding:10px;
+    }
+}
+@media(max-width:600px){
+    .footer{
+        min-width:50%;
+        padding:10px;
+    }
+}

@@ -1,6 +1,7 @@
 body{
     margin:0;
     background-color: #000000 !important;
+    height:100vh;
 }
 .container1{
     background-image: url(images/hero\ about\ image.png);
@@ -31,4 +32,10 @@ body{
 }
 .space{
     border: 1px solid grey;
+}
+@media (max-width:600px){
+     .body{
+        max-height:100vh;
+        padding:10px;
+     }
 }

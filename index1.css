@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    background-color: #000000 !important;
+}
+.container1{
+    background-image: url(images/hero\ home\ image.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    min-height:30rem;
+}
+.nav-item a{
+    color:white;
+}
+
+ .nav-item a:hover {
+    color: #853203;
+}
